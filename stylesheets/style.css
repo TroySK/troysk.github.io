@@ -1,0 +1,117 @@
+.container-perspective {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  background: url('images/bg.png');
+}
+.container-slides {
+  width: 2000%;
+  height: 100vh;
+}
+.slide {
+  height: 100%;
+  width: 5%;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Cardo';
+}
+.slide-1 {
+  background-color: #F44336;
+}
+.slide-2 {
+  background-color: #FF8A80;
+}
+.slide-3 {
+  background-color: #D500F9;
+}
+.slide-4 {
+  background-color: #651FFF;
+}
+.slide-5 {
+  background-color: #3D5AFE;
+}
+.slide-6 {
+  background-color: #2979FF;
+}
+.slide-7 {
+  background-color: #00B0FF;
+}
+.slide-8 {
+  background-color: #00E5FF;
+}
+.slide-9 {
+  background-color: #1DE9B6;
+}
+.slide-10 {
+  background-color: #00E676;
+}
+.slide-11 {
+  background-color: #76FF03;
+}
+.slide-12 {
+  background-color: #C6FF00;
+}
+.slide-13 {
+  background-color: #FFEA00;
+}
+.slide-14 {
+  background-color: #FFC400;
+}
+.slide-15 {
+  background-color: #FF9100;
+}
+.slide-16 {
+  background-color: #FF3D00;
+}
+.slide-17 {
+  background-color: #795548;
+}
+.slide-18 {
+  background-color: #616161;
+}
+.slide-19 {
+  background-color: #607D8B;
+}
+.slide-20 {
+  background-color: #263238;
+}
+
+.talk-bubble {
+  margin: 40px;
+  position: relative;
+  width: 200px;
+  height: auto;
+  background-color: lightyellow;
+  padding: 10px;
+}
+
+.tri-right.left-in:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -20px;
+  right: auto;
+  top: 38px;
+  bottom: auto;
+  border: 12px solid;
+  border-color: lightyellow lightyellow transparent transparent;
+}
+
+.talktext {
+  padding: 1em;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.talktext p {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
