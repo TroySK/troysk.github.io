@@ -1,0 +1,72 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 278 357" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <path d="M236.873,640.197L213.598,640.197L216.978,619.084L233.492,619.084L236.873,640.197Z" style="fill:rgb(243,243,243);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <g transform="matrix(1,-0,-0,1,67.3402,389)">
+            <use xlink:href="#_Image1" x="148.538" y="230.084" width="18.715px" height="6.604px"/>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <path d="M280.448,549.093L170.022,549.093C167.473,549.093 165.407,551.158 165.407,553.707L165.407,617.729C165.407,620.278 167.473,622.344 170.022,622.344L280.448,622.344C282.997,622.344 285.063,620.278 285.063,617.729L285.063,553.707C285.063,551.158 282.997,549.093 280.448,549.093" style="fill:rgb(64,64,65);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <rect x="170.688" y="553.893" width="109.094" height="57.342" style="fill:rgb(88,89,91);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <path d="M165.407,615.824L165.407,617.728C165.407,620.277 167.473,622.344 170.022,622.344L280.448,622.344C282.997,622.344 285.063,620.277 285.063,617.728L285.063,615.824L165.407,615.824Z" style="fill:rgb(243,243,243);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <g transform="matrix(1,-0,-0,1,67.3402,389)">
+            <use xlink:href="#_Image2" x="146.257" y="249.593" width="23.276px" height="1.604px"/>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <rect x="206.951" y="639.375" width="36.57" height="1.645" style="fill:rgb(243,243,243);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <path d="M227.839,619.112C227.839,620.259 226.909,621.189 225.762,621.189C224.614,621.189 223.685,620.259 223.685,619.112C223.685,617.966 224.614,617.035 225.762,617.035C226.909,617.035 227.839,617.966 227.839,619.112" style="fill:rgb(64,64,65);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <path d="M317.96,593.471L252.167,593.471C249.717,593.471 247.731,595.457 247.731,597.908L247.731,636.882L322.397,636.882L322.397,597.908C322.397,595.457 320.41,593.471 317.96,593.471" style="fill:rgb(64,64,65);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <path d="M317.96,596.51L252.167,596.51C251.397,596.51 250.77,597.137 250.77,597.908L250.77,633.844L319.358,633.844L319.358,597.908C319.358,597.137 318.731,596.51 317.96,596.51" style="fill:rgb(88,89,91);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <path d="M243.335,636.882C243.335,639.167 245.188,641.02 247.474,641.02L322.654,641.02C324.939,641.02 326.792,639.167 326.792,636.882L243.335,636.882Z" style="fill:rgb(243,243,243);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <g transform="matrix(1,-0,-0,1,67.3402,389)">
+            <use xlink:href="#_Image3" x="180.39" y="247.092" width="74.667px" height="0.79px"/>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <g transform="matrix(1,-0,-0,1,67.3402,389)">
+            <use xlink:href="#_Image4" x="208.96" y="247.882" width="17.527px" height="1.177px"/>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <path d="M162.533,563.969L69.139,563.969C68.145,563.969 67.34,564.774 67.34,565.768L67.34,623.551C67.34,624.544 68.145,625.35 69.139,625.35L110.711,625.35L110.711,639.6L92.086,639.6L92.086,641.1L139.586,641.1L139.586,639.6L120.961,639.6L120.961,625.35L162.533,625.35C163.526,625.35 164.332,624.544 164.332,623.551L164.332,565.768C164.332,564.774 163.526,563.969 162.533,563.969" style="fill:rgb(64,64,65);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <rect x="71.449" y="568.692" width="88.776" height="50.328" style="fill:rgb(229,230,231);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <path d="M160.041,636.732C163.279,637.46 165.681,639.137 166.212,639.494C166.743,639.851 166.585,641.019 165.472,641.019L154.751,641.019C154.305,641.019 153.943,640.718 153.943,640.347C153.943,637.714 156.803,636.004 160.041,636.732" style="fill:rgb(64,64,65);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-67.3402,-389)">
+        <g transform="matrix(1,-0,-0,1,67.3402,389)">
+            <use xlink:href="#_Image5" x="86.666" y="251.606" width="12.343px" height="0.414px"/>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="19px" height="7px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAHCAYAAADqF3ZBAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAATElEQVQoka3MwRGAMAwDMCeTlck5Zmrs/GpeLECrARS2/dwPlhf+igiMayBbvRUBgG10N3LW3Io+VYUkeSRjESnqTCYipTOZqIOZhBfCQjKGLfFQ7AAAAABJRU5ErkJggg=="/>
+        <image id="_Image2" width="24px" height="2px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAACCAYAAABCOhwFAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAJ0lEQVQImWM8fuz4/+/fvzPQAnBycjIw/fz5kyaGMzAwMPz8+ZMBAMeBDC3feml2AAAAAElFTkSuQmCC"/>
+        <image id="_Image3" width="75px" height="1px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAABCAYAAACWjVPgAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAEUlEQVQYlWMUEhD9zzAKiAIAanoBOAqvsTEAAAAASUVORK5CYII="/>
+        <image id="_Image4" width="18px" height="2px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAACCAYAAABVGIzMAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAK0lEQVQImWM8cuTI/18/fzFQAtjY2RiYJMQlGP7//0+2If///2eQEJdgAABrDAzX+JoB6AAAAABJRU5ErkJggg=="/>
+        <image id="_Image5" width="13px" height="1px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAYAAAAFKSQHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAF0lEQVQImWPMycn9f+XKFQZigYG+PgMA6GYFUJxFjrgAAAAASUVORK5CYII="/>
+    </defs>
+</svg>
