@@ -1,4 +1,4 @@
-$(function () { // wait for document ready
+(function () { // wait for document ready
   // init
   var controller = new ScrollMagic.Controller();
 
@@ -183,4 +183,4 @@ $(function () { // wait for document ready
   .setTween(wipeAnimation)
   // .addIndicators() // add indicators (requires plugin)
   .addTo(controller);
-});
+})();
