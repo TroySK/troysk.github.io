@@ -108,7 +108,7 @@ $(function () { // wait for document ready
   wipeAnimation.to(".slide-8 img:nth-of-type(2)", 4, {left: '50%'}, '-=10');
   wipeAnimation.to(".slide-8 img:nth-of-type(2)", 4, {left: '45%'}, '-=6');
   wipeAnimation.to(".slide-8 .callout:nth-of-type(2)", 4, {opacity: 1, left:'4%'}, '-=8');
-  wipeAnimation.to(".slide-8 img:nth-of-type(2)", 4, {left: '55%'}, '-=4');
+  wipeAnimation.to(".slide-8 img:nth-of-type(2)", 4, {left: '55%'}, '-=2');
   wipeAnimation.to(".slide-8 img:nth-of-type(2)", 4, {left: '50%'});
 
   wipeAnimation.to(".container-slides", 0.5, {z: -150}, '=15')
@@ -175,12 +175,12 @@ $(function () { // wait for document ready
 
   // create scene to pin and link animation
   new ScrollMagic.Scene({
-      triggerElement: ".container-perspective",
-      triggerHook: "onLeave",
-      duration: "500%"
-    })
-    .setPin(".container-perspective")
-    .setTween(wipeAnimation)
-		.addIndicators() // add indicators (requires plugin)
-    .addTo(controller);
+    triggerElement: ".container-perspective",
+    triggerHook: "onLeave",
+    duration: "500%"
+  })
+  .setPin(".container-perspective")
+  .setTween(wipeAnimation)
+  // .addIndicators() // add indicators (requires plugin)
+  .addTo(controller);
 });
