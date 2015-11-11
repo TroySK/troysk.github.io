@@ -1,10 +1,7 @@
 @font-face {
   font-family: 'komika_displayregular';
   src: url('/fonts/Komika_display-webfont.eot');
-  src: url('/fonts/Komika_display-webfont.eot?#iefix') format('embedded-opentype'),
-  url('/fonts/Komika_display-webfont.woff') format('woff'),
-  url('/fonts/Komika_display-webfont.ttf') format('truetype'),
-  url('/fonts/Komika_display-webfont.svg#komika_displayregular') format('svg');
+  src: url('/fonts/Komika_display-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/Komika_display-webfont.woff') format('woff'), url('/fonts/Komika_display-webfont.ttf') format('truetype'), url('/fonts/Komika_display-webfont.svg#komika_displayregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,6 +10,9 @@ html, body {
   margin: 0;
   font-family: 'komika_displayregular';
   font-size: 16px;
+}
+a {
+  text-decoration: none;
 }
 .container-perspective {
   width: 100%;
@@ -36,20 +36,20 @@ html, body {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   position: relative;
 }
 .slide img {
-  position:absolute;
-  width:100%;
-  height:100%;
-  left:50%;
-  margin-left:-50%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  margin-left: -50%;
 }
 .callouts {
   -webkit-filter: drop-shadow(0 0 2px #000);
@@ -69,12 +69,12 @@ html, body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   position: absolute;
   opacity: 0;
   text-align: left;
@@ -99,16 +99,16 @@ html, body {
   border-color: #fff transparent transparent transparent;
   border-style: solid;
   -webkit-transform: skewX(-66deg);
-      -ms-transform: skewX(-66deg);
-          transform: skewX(-66deg);
+  -ms-transform: skewX(-66deg);
+  transform: skewX(-66deg);
   border-width: 2rem 3rem 0 1rem;
   left: 2rem;
 }
 .callout.inverted:after {
   border-width: 0 2rem 2rem 1rem;
   -webkit-transform: skewX(66deg);
-      -ms-transform: skewX(66deg);
-          transform: skewX(66deg);
+  -ms-transform: skewX(66deg);
+  transform: skewX(66deg);
   border-color: transparent transparent #fff transparent;
   top: -2rem;
   left: 3rem;
@@ -157,4 +157,106 @@ html, body {
 }
 .slide-15 {
   background-color: #F57C00;
+}
+.card {
+  background: url(/images/contact-card-bg.jpg);
+  background-size: cover;
+  position: relative;
+  border-radius: 0.5rem;
+}
+.card .info {
+  padding-bottom: 22rem;
+}
+.card .info h1 {
+  font-family: Roboto;
+  font-size: 2rem;
+  margin: 1rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.card .info h2 {
+  font-family: Roboto;
+  font-size: 1.5rem;
+  margin: 1rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.contacts {
+  bottom: 0;
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  text-align: center;
+  padding: 1rem 0 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.contacts a {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.contact span {
+  display: block;
+  font-family: Roboto;
+  font-size: 0.5rem;
+}
+.contact .contact-label, .contact .contact-info {
+  opacity: 0;
+}
+.contact .contact-label {
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+.contact:hover .contact-label, .contact:hover .contact-info {
+  opacity: 1;
+}
+.contact:hover .contact-label {
+  -webkit-transform: translateY(-0.5rem);
+  -ms-transform: translateY(-0.5rem);
+  transform: translateY(-0.5rem);
+}
+.contact span .fa {
+  font-size: 2rem;
+  padding: 0.3rem;
+  color: rgba(0, 0, 0, 0.3);
+  display: block;
+}
+.contact:hover span, .contact:hover span .fa {
+  color: rgba(255, 255, 255, 1);
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+.contacts-bg {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 5.75rem;
+  -webkit-filter: blur(2px);
+  background: url(/images/contact-card-bg.jpg) bottom;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
