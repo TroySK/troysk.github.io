@@ -92,28 +92,30 @@
   .to(".container-slides", 0.5, {z: 0})
 
   .to(".slide-7 .callout:nth-of-type(1)", 4, {opacity: 1, left:'6%'})
+  .to(".slide-7 img:nth-of-type(2)", 4, {opacity: 1, transform: 'perspective(400px)'})
   .to(".slide-7 .callout:nth-of-type(2)", 4, {opacity: 1, left:'4%'})
-  .to(".slide-7 img:nth-of-type(2)", 1, {opacity: 1}, '-=4')
+  .to(".slide-7 img:nth-of-type(3)", 4, {opacity: 1}, '-=4')
 
   .to(".container-slides", 0.5, {z: -150}, '=15')
   .to(".container-slides", 1,   {x: "-35%"})
   .to(".container-slides", 0.5, {z: 0})
 
-  .to(".slide-8 img:nth-of-type(2)", 4, {left: '45%'})
+  .to(".slide-8 img:nth-of-type(2)", 4, {transform: 'translate3d(0, 0, 0)', opacity: 1})
+  .to(".slide-8 img:nth-of-type(3)", 4, {left: '45%'})
   .to(".slide-8 .callout:nth-of-type(1)", 4, {opacity: 1, left:'6%'}, '-=2')
-  .to(".slide-8 img:nth-of-type(3)", 12, {opacity: 1})
-  .to(".slide-8 img:nth-of-type(2)", 4, {left: '55%'}, '-=14')
-  .to(".slide-8 img:nth-of-type(2)", 4, {left: '50%'}, '-=10')
-  .to(".slide-8 img:nth-of-type(2)", 4, {left: '45%'}, '-=6')
+  .to(".slide-8 img:nth-of-type(4)", 12, {opacity: 1})
+  .to(".slide-8 img:nth-of-type(3)", 4, {left: '55%'}, '-=14')
+  .to(".slide-8 img:nth-of-type(3)", 4, {left: '50%'}, '-=10')
+  .to(".slide-8 img:nth-of-type(3)", 4, {left: '45%'}, '-=6')
   .to(".slide-8 .callout:nth-of-type(2)", 4, {opacity: 1, left:'4%'}, '-=8')
-  .to(".slide-8 img:nth-of-type(2)", 4, {left: '55%'}, '-=2')
-  .to(".slide-8 img:nth-of-type(2)", 4, {left: '50%'})
+  .to(".slide-8 img:nth-of-type(3)", 4, {left: '55%'}, '-=2')
+  .to(".slide-8 img:nth-of-type(3)", 4, {left: '50%'})
 
   .to(".container-slides", 0.5, {z: -150}, '=15')
   .to(".container-slides", 1,   {x: "-40%"})
   .to(".container-slides", 0.5, {z: 0})
 
-  .to(".slide-9 img:nth-of-type(2)", 4, {top: '0', opacity: 1})
+  .to(".slide-9 img:nth-of-type(1)", 4, {top: '0', opacity: 1})
   .to(".slide-9 .callout:nth-of-type(1)", 4, {opacity: 1, left:'12%'}, '-=2')
   .to(".slide-9 .callout:nth-of-type(2)", 4, {opacity: 1, left:'8%'})
 
@@ -134,7 +136,7 @@
   .to(".container-slides", 0.5, {z: 0})
 
   .to(".slide-11 .callout:nth-of-type(1)", 4, {opacity: 1, left:'8%'})
-  .to(".slide-11 img:nth-of-type(2)", 4, {bottom: '0', opacity: 1})
+  .to(".slide-11 img:nth-of-type(2)", 4, {opacity: 1, transform: 'perspective(400px)'})
   .to(".slide-11 .callout:nth-of-type(2)", 4, {opacity: 1, left:'6%'})
 
   .to(".container-slides", 0.5, {z: -150}, '=15')

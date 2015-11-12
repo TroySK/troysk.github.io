@@ -151,6 +151,10 @@ a {
 }
 .slide-9 {
   background-color: #009688;
+  background-image: url('/images/linkedin-bg.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .slide-10 {
   background-color: #4CAF50;
@@ -175,11 +179,14 @@ a {
   background-size: cover;
   position: relative;
   border-radius: 0.5rem;
+  -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
   transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
   opacity: 0;
   position: absolute;
   top: 8rem;
   left: 22rem;
+  z-index: 5;
+  box-shadow: 4px 2px 4px rgba(0,0,0,0.4);
 }
 .card .info {
   padding-bottom: 22rem;
@@ -273,6 +280,7 @@ a {
   bottom: 0;
   height: 5.75rem;
   -webkit-filter: blur(2px);
+  filter: blur(2px);
   background: url(/images/contact-card-bg.jpg) bottom;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
