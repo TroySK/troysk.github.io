@@ -16,7 +16,7 @@
   .to(".slide-2 img:nth-of-type(3)", 3, {opacity:1})
   .to(".slide-2 img:nth-of-type(4)", 3, {opacity:1})
   .to(".slide-2 .callout", 3, {opacity: 1, left:'4%'})
-  .to(".slide-2 img:nth-of-type(3)", 4, {opacity:0, bottom:'21rem'}, '=3')
+  .to(".slide-2 img:nth-of-type(3)", 4, {opacity:0, bottom:'21rem', top: 'auto'}, '=3')
   .to(".slide-2 img:nth-of-type(5)", 3, {opacity:1})
   .to(".slide-2 img:nth-of-type(5)", 6, {opacity:1, height:'100%', top:0})
 
@@ -168,7 +168,10 @@
   .to(".container-slides", 1,   {x: "-70%"})
   .to(".container-slides", 0.5, {z: 0})
 
-  .to(".slide-15 img:nth-of-type(2)", 5, { left: '10%', opacity: 1})
+  .to(".slide-15 .card", 5, { transform: 'perspective(400px)', opacity: 1})
+  .to(".slide-15 .callout:nth-of-type(1)", 4, { opacity: 1, left: '8%'})
+  .to(".slide-15 .callout:nth-of-type(2)", 4, { opacity: 1, left: '6%'});
+
 
   new ScrollMagic.Scene({
     triggerElement: ".container-perspective",
