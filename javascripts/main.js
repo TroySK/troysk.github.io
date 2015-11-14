@@ -1,7 +1,7 @@
 (function () {
   var controller = new ScrollMagic.Controller();
 
-  var wipeAnimation = new TimelineMax()
+  var animation = new TimelineMax()
   .to(".slide-1 .callout:nth-of-type(1)", 4, {opacity: 1,left:'40%'})
   .to(".slide-1 .callout:nth-of-type(2)", 4, {opacity: 1,left:'46%'})
   .to(".slide-1 .callout:nth-of-type(3)", 4, {opacity: 1,left:'46%'})
@@ -166,7 +166,7 @@
     duration: "500%"
   })
   .setPin(".container-perspective")
-  .setTween(wipeAnimation)
+  .setTween(animation)
   .addTo(controller);
 
   var contacts = document.getElementsByClassName("contact");
@@ -180,5 +180,11 @@
       parent.style.backgroundColor = "";
     });
   }
+
+  var observer = new FontFaceObserver("komika_displayregular", {});
+  observer.check().then(function () {
+    var body = document.getElementsByTagName("body")[0];
+    body.className = body.className + " fonts-loaded";
+  });
 
 })();

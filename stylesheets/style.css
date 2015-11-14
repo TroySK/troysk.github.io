@@ -8,8 +8,10 @@
 html, body {
   height: 100vh;
   margin: 0;
-  font-family: 'komika_displayregular';
   font-size: 16px;
+}
+body.fonts-loaded {
+  font-family: 'komika_displayregular';
 }
 @media (max-width: 480px) {
   html, body {
