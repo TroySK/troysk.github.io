@@ -294,3 +294,19 @@ a {
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
 }
+
+.callouts .thought {
+  position: absolute;
+  top: initial;
+  left: 6rem;
+  background: url(/images/contact-cloud.svg) no-repeat;
+  background-size: cover;
+  padding: 1rem 1.1rem 4rem 3rem;
+  width: 9.2rem;
+  bottom: 0;
+  z-index: 6;
+}
+
+.callouts .thought a {
+  color: #000;
+}
