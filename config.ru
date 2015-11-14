@@ -1,5 +1,7 @@
+require 'rack/contrib'
+
 use Rack::Deflater
-use Rack::Static,
+use Rack::StaticCache,
   :urls => ["/images", "/javascripts", "/stylesheets", "/fonts"],
   :root => "."
 
