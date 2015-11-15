@@ -182,8 +182,8 @@ observer.check().then(function () {
 
   var deferredImages = document.getElementsByTagName('img');
   for (var i=0; i<deferredImages.length; i++) {
-    if(imgDefer[i].getAttribute('data-src')) {
-      imgDefer[i].setAttribute('src', deferredImages[i].getAttribute('data-src'));
+    if(deferredImages[i].getAttribute('data-src')) {
+      deferredImages[i].setAttribute('src', deferredImages[i].getAttribute('data-src'));
     }
   }
 
