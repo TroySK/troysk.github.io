@@ -8,9 +8,139 @@
     <meta name="author" content="Troy SK">
     <!-- <link rel="icon" href="favicon.ico"> -->
     <title>Shirsendu "Troy" Karmakar - Resume</title>
-    <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Roboto:100,300,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <style>
+    html, body {
+      height: 100vh;
+      margin: 0;
+      font-size: 16px;
+    }
+    @media (max-width: 480px) {
+      html, body {
+        font-size: 8px;
+      }
+    }
+    @media (min-width: 480px) and (max-width: 960px) {
+      html, body {
+        font-size: 12px;
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+    .container-perspective {
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      -webkit-perspective: 1000;
+      perspective: 1000;
+      background: url('/images/bg.png');
+    }
+    .container-slides {
+      width: 100%;
+      height: 100vh;
+    }
+    .slide {
+      height: 100%;
+      width: 100%;
+      float: left;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      display: none;
+    }
+    .slide img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 50%;
+      margin-left: -50%;
+    }
+    .callouts {
+      -webkit-filter: drop-shadow(0 0 2px #000);
+      filter: drop-shadow(0 0 2px #000);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .callout {
+      border-radius: 0.75rem;
+      background-color: #fff;
+      min-width: 10rem;
+      max-width: 16rem;
+      min-height: 2rem;
+      padding: 1rem;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      position: absolute;
+      opacity: 0;
+      text-align: left;
+      line-height: 1.5em;
+      margin: 0;
+      left: -20rem;
+    }
+    .callout.inverted {
+      left: 100%;
+    }
+    .callout p, .callout h1 {
+      margin: 0;
+    }
+    .callout:after {
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 98%;
+      bottom: auto;
+      border-width: 2rem 3rem 0 1rem;
+      border-color: #fff transparent transparent transparent;
+      border-style: solid;
+      -webkit-transform: skewX(-66deg);
+      -ms-transform: skewX(-66deg);
+      transform: skewX(-66deg);
+      border-width: 2rem 3rem 0 1rem;
+      left: 2rem;
+    }
+    .callout.inverted:after {
+      border-width: 0 2rem 2rem 1rem;
+      -webkit-transform: skewX(66deg);
+      -ms-transform: skewX(66deg);
+      transform: skewX(66deg);
+      border-color: transparent transparent #fff transparent;
+      top: -2rem;
+      left: 3rem;
+    }
+    .slide-1 {
+      background-color: #F44336;
+      display: block;
+      opacity: 1;
+    }
+    </style>
   </head>
   <body>
     <div class="container-perspective">
