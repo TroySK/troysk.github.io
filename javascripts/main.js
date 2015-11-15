@@ -180,14 +180,6 @@ observer.check().then(function () {
   .setTween(animation)
   .addTo(controller);
 
-  var deferredImages = document.getElementsByTagName('img');
-  for (var i=0; i<deferredImages.length; i++) {
-    if(deferredImages[i].getAttribute('data-src')) {
-      deferredImages[i].setAttribute('src', deferredImages[i].getAttribute('data-src'));
-    }
-  }
-
-
   var contacts = document.getElementsByClassName("contact");
   for (var i = 0; i < contacts.length; i++) {
     contacts[i].addEventListener("mouseover", function(event) {
@@ -201,5 +193,5 @@ observer.check().then(function () {
   }
 
 })();
-loadCSS("https://fonts.googleapis.com/css?family=Roboto:100");
+loadCSS("//fonts.googleapis.com/css?family=Roboto:100");
 loadCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
