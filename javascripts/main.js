@@ -193,5 +193,5 @@ observer.check().then(function () {
   }
 
 })();
-loadCSS("//fonts.googleapis.com/css?family=Roboto:100");
+loadCSS("https://fonts.googleapis.com/css?family=Roboto:100");
 loadCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
