@@ -1,3 +1,11 @@
+/*!
+loadCSS: load a CSS file asynchronously.
+[c]2015 @scottjehl, Filament Group, Inc.
+Licensed MIT
+*/
+(function(w){ "use strict"; var loadCSS = function( href, before, media ){ var doc = w.document; var ss = doc.createElement( "link" ); var ref; if( before ){ ref = before; } else { var refs = ( doc.body || doc.getElementsByTagName( "head" )[ 0 ] ).childNodes; ref = refs[ refs.length - 1]; } var sheets = doc.styleSheets; ss.rel = "stylesheet"; ss.href = href; ss.media = "only x"; ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) ); var onloadcssdefined = function( cb ){ var resolvedHref = ss.href; var i = sheets.length; while( i-- ){ if( sheets[ i ].href === resolvedHref ){ return cb(); } } setTimeout(function() { onloadcssdefined( cb ); }); }; ss.onloadcssdefined = onloadcssdefined; onloadcssdefined(function() { ss.media = media || "all"; }); return ss; }; if( typeof module !== "undefined" ){ module.exports = loadCSS; } else { w.loadCSS = loadCSS; } }( typeof global !== "undefined" ? global : this ));
+loadCSS("/stylesheets/style.css");
+
 (function () {
   var controller = new ScrollMagic.Controller();
 
@@ -159,7 +167,6 @@
   .to(".slide-15 .callout:nth-of-type(1)", 4, { opacity: 1, left: '8%'})
   .to(".slide-15 .callout:nth-of-type(2)", 4, { opacity: 1, left: '6%'});
 
-
   new ScrollMagic.Scene({
     triggerElement: ".container-perspective",
     triggerHook: "onLeave",
@@ -188,12 +195,6 @@
   });
 
 })();
-/*!
-loadCSS: load a CSS file asynchronously.
-[c]2015 @scottjehl, Filament Group, Inc.
-Licensed MIT
-*/
-(function(w){ "use strict"; var loadCSS = function( href, before, media ){ var doc = w.document; var ss = doc.createElement( "link" ); var ref; if( before ){ ref = before; } else { var refs = ( doc.body || doc.getElementsByTagName( "head" )[ 0 ] ).childNodes; ref = refs[ refs.length - 1]; } var sheets = doc.styleSheets; ss.rel = "stylesheet"; ss.href = href; ss.media = "only x"; ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) ); var onloadcssdefined = function( cb ){ var resolvedHref = ss.href; var i = sheets.length; while( i-- ){ if( sheets[ i ].href === resolvedHref ){ return cb(); } } setTimeout(function() { onloadcssdefined( cb ); }); }; ss.onloadcssdefined = onloadcssdefined; onloadcssdefined(function() { ss.media = media || "all"; }); return ss; }; if( typeof module !== "undefined" ){ module.exports = loadCSS; } else { w.loadCSS = loadCSS; } }( typeof global !== "undefined" ? global : this ));
-loadCSS("/stylesheets/style.css");
+
 loadCSS("//fonts.googleapis.com/css?family=Roboto:100");
 loadCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
