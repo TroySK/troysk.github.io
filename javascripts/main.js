@@ -180,6 +180,14 @@ observer.check().then(function () {
   .setTween(animation)
   .addTo(controller);
 
+  var deferredImages = document.getElementsByTagName('img');
+  for (var i=0; i<deferredImages.length; i++) {
+    if(imgDefer[i].getAttribute('data-src')) {
+      imgDefer[i].setAttribute('src', deferredImages[i].getAttribute('data-src'));
+    }
+  }
+
+
   var contacts = document.getElementsByClassName("contact");
   for (var i = 0; i < contacts.length; i++) {
     contacts[i].addEventListener("mouseover", function(event) {
