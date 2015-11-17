@@ -157,6 +157,17 @@
     .slide-1 img {
       left: 16rem;
     }
+    .callouts .thought {
+      position: absolute;
+      top: initial;
+      right: 6rem;
+      background: url(/images/contact-cloud.svg) no-repeat;
+      background-size: cover;
+      padding: 1rem 1.1rem 4rem 3rem;
+      width: 9.2rem;
+      bottom: 0;
+      z-index: 6;
+    }
     @media (max-width: 480px) {
       html, body {
         font-size: 8px;
@@ -188,6 +199,9 @@
     		<section class="slide slide-1">
           <img src="images/troysk_copy.jpg" alt="Troy says Hii!" style="height:90%;position:absolute;top:5%;margin-left:inherit;width:auto;">
           <div class="callouts">
+            <div class="thought thought-1">
+              <p>Please scroll to begin...</p>
+            </div>
             <div class="callout" style="top:2rem;left:100%;">
               <h1 style="font-size:3rem;">Hii</h1>
             </div>
@@ -245,10 +259,10 @@
           <img src="images/designer-main-bg.svg" alt="I'm a designer" style="top:0;">
           <img src="images/color-guide.svg" alt="I'm a designer" style="width:10%;left:30%;top:0;opacity:0;    margin-left:inherit;height:initial;">
           <img src="images/sketch-pen.svg" alt="I'm a designer" style="width:10%;right:10%;bottom:0;opacity:0;    margin-left:inherit;height:initial;left:initial;">
-          <img src="images/designer-prototype.svg" alt="I'm a designer" style="width: 30%;left:10%;bottom:-100%;margin-left:inherit;height:initial;">
-          <img src="images/ux-design.svg" alt="I'm a designer" style="width: 30%;left:5%;bottom:-100%;margin-left:inherit;height:initial;">
-          <img src="images/responsive-design.svg" alt="I'm a designer" style="width: 30%;left:2%;bottom:-100%;margin-left:inherit;height:initial;">
-          <img src="images/data-driven.svg" alt="I'm a designer" style="width: 20%;left:-30%;bottom:10%;opacity:0;margin-left:inherit;height:initial;">
+          <img src="images/designer-prototype.svg" alt="I'm a designer" style="width: 30rem;left:10%;bottom:-100%;margin-left:inherit;height:initial;">
+          <img src="images/ux-design.svg" alt="I'm a designer" style="width: 30rem;left:5%;bottom:-100%;margin-left:inherit;height:initial;">
+          <img src="images/responsive-design.svg" alt="I'm a designer" style="width: 30rem;left:2%;bottom:-100%;margin-left:inherit;height:initial;">
+          <img src="images/data-driven.svg" alt="I'm a designer" style="width: 20rem;left:-30%;bottom:10%;opacity:0;margin-left:inherit;height:initial;">
           <div class="callouts">
             <div class="callout" style="top:2rem;">
               <p>I sketch prototypes.</p>
@@ -293,8 +307,8 @@
           <img src="images/consultant-sourceeasy.svg" alt="I'm a consultant" style="opacity:0;top:0;">
           <img src="images/consultant-freshmonk.svg" alt="I'm a consultant" style="opacity:0;top:0;">
           <img src="images/consultant-modish.svg" alt="I'm a consultant" style="opacity:0;top:0;">
-          <img src="images/consultant-tripoto.png" alt="I'm a consultant" style="right:2rem;height:80%;opacity:0;top:10%;width:initial;left:initial;margin-left:inherit;">
-          <img src="images/consultant-opensource.svg" alt="I'm a consultant" style="opacity:0;top:0;">
+          <img src="images/consultant-tripoto.png" alt="I'm a consultant" style="right:2rem;height:initial;opacity:0;top:15%;width:30rem;left:initial;margin-left:inherit;">
+          <img src="images/consultant-opensource.svg" alt="I'm a consultant" style="opacity:0;top:0;height: initial;left:17rem;margin-left:initial;width:50rem;">
           <div class="callouts">
             <div class="callout" style="top:15rem;">
               <p>I'm working as a consultant with startups.</p>
@@ -312,17 +326,17 @@
           <img src="images/qreoh-logo.svg" alt="I built QREOH" style="opacity:0;top:0;transform: perspective(400px) rotate3d(1, 0, 0, 90deg);">
           <img src="images/qreoh-cloud.svg" alt="I built QREOH" style="opacity:0;top:0;">
           <div class="callouts">
-            <div class="callout" style="top:12rem;">
+            <div class="callout" style="top:2rem;">
               <p>Before consulting, I co-founded QREOH, an e-commerce marketplace for Indian designers.</p>
             </div>
-            <div class="callout" style="top:21rem;">
+            <div class="callout" style="top:11rem;">
               <p>But because of some unforeseen clouds. We shut it down in April, 2015.</p>
             </div>
           </div>
     		</section>
         <section class="slide slide-8">
           <img src="images/solidry.svg" alt="I built Solidry" style="top:0;">
-          <img src="images/solidry-logo.png" alt="I built Solidry" style="top:2rem;width:262px;height:91px;margin-left:inherit;left:4rem;transform: translate3d(0, 100%, 0);opacity:0;">
+          <img src="images/solidry-logo.png" alt="I built Solidry" style="top:0.5rem;width:262px;height:91px;margin-left:inherit;left:4rem;transform: translate3d(0, 100%, 0);opacity:0;">
           <img src="images/printer-head.svg" alt="I built Solidry" style="top:0;">
           <img src="images/3d-cube.svg" alt="I built Solidry" style="opacity:0;top:0;">
           <div class="callouts">
@@ -335,7 +349,7 @@
           </div>
     		</section>
         <section class="slide slide-9">
-          <img src="images/linkedin-profile.svg" alt="I worked at LinkedIn" style="top:100%;opacity:0;height:initial;">
+          <img src="images/linkedin-profile.svg" alt="I worked at LinkedIn" style="top:100%;opacity:0;height:initial;left:10%;width:80%;margin-left:initial;">
           <div class="callouts">
             <div class="callout" style="top:20rem;">
               <p>I was a Senior Software Engineer at LinkedIn.</p>
@@ -489,7 +503,7 @@
                 <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.troysk.com&title=A%20supercool%20interactive%resume%20-%20Shirsendu%20'Troy'%20Karmakar's%20Resume&summary=This%20is%20the%20Troy%20SK's%20homepage%20which%20doubles%20up%20as%20his%20resume.%20The%20resume%20is%20interactive!%20Just%20scroll%20though%20to%20know%20him%20better.%20Troy%20SK%20is%20also%20known%20as%20Shirsendu%2C%20Troy%2C%20Toy%2C%20Dada%2C%20Karmakar%2C%20Carmaker%20etc%20etc.%20He%20is%20an%20engineer%20and%20a%20hacker." target="_blank" title="Share on LinkedIn"><i class="fa fa-linkedin-square fa-2x" style="color:#00ACED;"></i></a>
               </div>
             </div>
-            <div class="thought">
+            <div class="thought" style="left:6rem;right:initial;">
               <p><a href='http://www.freepik.com/' target="_blank">All images were provided by Freepik.</a></p>
             </div>
           </div>
@@ -497,13 +511,8 @@
     	</div>
     </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-    <!-- <script src="/javascripts/TweenMax.min.js"></script> -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-    <!-- <script src="/javascripts/ScrollMagic.js"></script> -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
-    <!-- <script src="/javascripts/animation.gsap.js"></script> -->
-    <!-- <script src="/javascripts/debug.addIndicators.js"></script> -->
-    <script src="/javascripts/fontfaceobserver.js"></script>
     <script src="/javascripts/main.js"></script>
   </body>
 </html>
