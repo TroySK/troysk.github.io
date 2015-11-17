@@ -159,10 +159,10 @@ observer.check('Hii', 10000).then(function () {
   .to(".slide-13", 8, {opacity: 0, display: 'none'}, '=16')
   .to(".slide-14", 8, {opacity: 1, display: 'flex'}, '-=8')
 
-  .to(".slide-14 img:nth-of-type(2)", 8, { top: '0',opacity:1})
+  .to(".slide-14 img:nth-of-type(2)", 16, { top: '0',opacity:1})
   .to(".slide-14 .callout:nth-of-type(1)", 8, { opacity: 1, left: '8%'})
   .to(".slide-14 .callout:nth-of-type(2)", 8, { opacity: 1, left: '6%'})
-  .to(".slide-14 img:nth-of-type(2)", 8, { top: '-100%', opacity:0}, '=16')
+  .to(".slide-14 img:nth-of-type(2)", 16, { top: '-100%', opacity:0}, '=16')
 
   .to(".slide-14", 8, {opacity: 0, display: 'none'}, '=16')
   .to(".slide-15", 8, {opacity: 1, display: 'flex'}, '-=8')
