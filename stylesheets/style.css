@@ -6,6 +6,8 @@ body.fonts-loaded {
   width: 0;
   height: 0;
   z-index: 7;
+  opacity: 0;
+  box-shadow: 0 0 100px 1rem #000;
 }
 .slide-1 .dot, .slide-2 {
   background-color: #E91E63;
