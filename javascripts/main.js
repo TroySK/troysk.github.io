@@ -190,7 +190,7 @@ observer.check('Hii', 10000).then(function() {
   new ScrollMagic.Scene({
     triggerElement: ".container-perspective",
     triggerHook: "onLeave",
-    duration: "500%"
+    duration: "6000%"
   })
   .setPin(".container-perspective")
   .setTween(animation)
