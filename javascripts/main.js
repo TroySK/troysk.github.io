@@ -14,15 +14,14 @@ observer.check('Hii', 10000).then(function() {
   var controller = new ScrollMagic.Controller();
 
   var animation = new TimelineMax()
-    .to(".slide-1 .thought", 4, { opacity: 0, display: 'none' })
+    .to(".slide-1 .thought", 4, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-1 .callout:nth-of-type(2)", 8, { opacity: 1, left: '40%' })
     .to(".slide-1 .callout:nth-of-type(3)", 8, { opacity: 1, left: '50%' })
     .to(".slide-1 .callout:nth-of-type(4)", 8, { opacity: 1, left: '50%' })
     .to(".slide-1 .callout:nth-of-type(5)", 8, { opacity: 1, left: '50%' })
     .to(".slide-1 .callout:nth-of-type(6)", 8, { opacity: 1, left: '50%' })
 
-    .to(".slide-1 .dot", 8, { padding: '50rem', opacity: 1 }, '=16')
-    .to(".slide-1", 8, { opacity: 0, display: 'none' })
+    .to(".slide-1", 8, { opacity: 0, display: 'none' }, '=8')
     .to(".slide-2", 8, { opacity: 1, display: 'flex' }, '-=8')
 
     .to(".slide-2 img:nth-of-type(2)", 8, { height: '100%' })
@@ -33,8 +32,7 @@ observer.check('Hii', 10000).then(function() {
     .to(".slide-2 img:nth-of-type(5)", 8, { opacity: 1 })
     .to(".slide-2 img:nth-of-type(5)", 12, { opacity: 1, height: '100%', top: 0 })
 
-    .to(".slide-2 .dot", 8, { padding: '50rem', opacity: 1 }, '=16')
-    .to(".slide-2", 8, { opacity: 0, display: 'none' })
+    .to(".slide-2", 8, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-3", 8, { opacity: 1, display: 'flex' }, '-=8')
 
     .to(".slide-3 img:nth-of-type(2)", 8, { opacity: 1, top: 0, 'z-index': 1 })
@@ -47,13 +45,12 @@ observer.check('Hii', 10000).then(function() {
     .to(".slide-3 img:nth-of-type(7)", 8, { width: '12%' })
     .to(".slide-3 img:nth-of-type(8)", 8, { width: '16%' })
     .to(".slide-3 .callout:nth-of-type(3)", 12, { opacity: 1, left: '2%' })
-    .to(".slide-3 img:nth-of-type(3), .slide-3 img:nth-of-type(5), .slide-3 img:nth-of-type(6), .slide-3 img:nth-of-type(7), .slide-3 img:nth-of-type(8)", 12, { opacity: 0, display: 'none' })
+    .to(".slide-3 img:nth-of-type(3), .slide-3 img:nth-of-type(5), .slide-3 img:nth-of-type(6), .slide-3 img:nth-of-type(7), .slide-3 img:nth-of-type(8)", 12, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-3 img:nth-of-type(9)", 12, { opacity: 1 }, '-=4')
     .to(".slide-3 img:nth-of-type(10)", 20, { opacity: 1, top: '18%' }, '-=8')
     .to(".slide-3 img:nth-of-type(11)", 8, { opacity: 1, top: 0 }, '-=12')
 
-    .to(".slide-3 .dot", 8, { padding: '50rem', opacity: 1 }, '=16')
-    .to(".slide-3", 8, { opacity: 0, display: 'none' })
+    .to(".slide-3", 8, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-4", 8, { opacity: 1, display: 'flex' }, '-=8')
 
     .to(".slide-4 img:nth-of-type(2)", 8, { opacity: 1, top: '10%' })
@@ -71,8 +68,7 @@ observer.check('Hii', 10000).then(function() {
     .to(".slide-4 .callout:nth-of-type(4)", 8, { opacity: 1, left: '4%' }, '-=2')
     .to(".slide-4 img:nth-of-type(7)", 8, { rotation: -90 })
 
-    .to(".slide-4 .dot", 8, { padding: '50rem', opacity: 1 }, '=16')
-    .to(".slide-4", 8, { opacity: 0, display: 'none' })
+    .to(".slide-4", 8, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-5", 8, { opacity: 1, display: 'flex' }, '-=8')
 
     .to(".slide-5 .callout:nth-of-type(1)", 8, { opacity: 1, left: '6%' })
@@ -86,8 +82,7 @@ observer.check('Hii', 10000).then(function() {
     .to(".slide-5 img:nth-of-type(7)", 8, { top: 0, opacity: 1 }, '-=8')
     .to(".slide-5 .callout:nth-of-type(4)", 8, { opacity: 1, left: '6%' }, '=12')
 
-    .to(".slide-5 .dot", 8, { padding: '50rem', opacity: 1 }, '=16')
-    .to(".slide-5", 8, { opacity: 0, display: 'none' })
+    .to(".slide-5", 8, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-6", 8, { opacity: 1, display: 'flex' }, '-=8')
 
     .to(".slide-6 .callout:nth-of-type(1)", 8, { opacity: 1, left: '6%' })
@@ -100,8 +95,7 @@ observer.check('Hii', 10000).then(function() {
     .to(".slide-6 .callout:nth-of-type(3)", 8, { opacity: 1, left: '6%' })
     .to(".slide-6 img:nth-of-type(7)", 8, { opacity: 1 })
 
-    .to(".slide-6 .dot", 8, { padding: '50rem', opacity: 1 }, '=16')
-    .to(".slide-6", 8, { opacity: 0, display: 'none' })
+    .to(".slide-6", 8, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-7", 8, { opacity: 1, display: 'flex' }, '-=8')
 
     .to(".slide-7 .callout:nth-of-type(1)", 8, { opacity: 1, left: '6%' })
@@ -109,8 +103,7 @@ observer.check('Hii', 10000).then(function() {
     .to(".slide-7 .callout:nth-of-type(2)", 8, { opacity: 1, left: '4%' })
     .to(".slide-7 img:nth-of-type(3)", 8, { opacity: 1 }, '-=8')
 
-    .to(".slide-7 .dot", 8, { padding: '50rem', opacity: 1 }, '=16')
-    .to(".slide-7", 8, { opacity: 0, display: 'none' })
+    .to(".slide-7", 8, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-8", 8, { opacity: 1, display: 'flex' }, '-=8')
 
     .to(".slide-8 img:nth-of-type(2)", 8, { transform: 'translate3d(0, 0, 0)', opacity: 1 })
@@ -124,16 +117,14 @@ observer.check('Hii', 10000).then(function() {
     .to(".slide-8 img:nth-of-type(3)", 8, { left: '55%' }, '-=4')
     .to(".slide-8 img:nth-of-type(3)", 8, { left: '50%' })
 
-    .to(".slide-8 .dot", 8, { padding: '50rem', opacity: 1 }, '=16')
-    .to(".slide-8", 8, { opacity: 0, display: 'none' })
+    .to(".slide-8", 8, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-9", 8, { opacity: 1, display: 'flex' }, '-=8')
 
     .to(".slide-9 img:nth-of-type(1)", 8, { top: '10rem', opacity: 1 })
     .to(".slide-9 .callout:nth-of-type(1)", 8, { opacity: 1, left: '12%' }, '-=4')
     .to(".slide-9 .callout:nth-of-type(2)", 8, { opacity: 1, left: '8%' })
 
-    .to(".slide-9 .dot", 8, { padding: '50rem', opacity: 1 }, '=16')
-    .to(".slide-9", 8, { opacity: 0, display: 'none' })
+    .to(".slide-9", 8, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-10", 8, { opacity: 1, display: 'flex' }, '-=8')
 
     .to(".slide-10 img:nth-of-type(2)", 8, { opacity: 1 })
@@ -143,16 +134,14 @@ observer.check('Hii', 10000).then(function() {
     .to(".slide-10 .callout:nth-of-type(2)", 8, { opacity: 1, left: '6%' })
     .to(".slide-10 .callout:nth-of-type(3)", 8, { opacity: 1, left: '2%' })
 
-    .to(".slide-10 .dot", 8, { padding: '50rem', opacity: 1 }, '=16')
-    .to(".slide-10", 8, { opacity: 0, display: 'none' })
+    .to(".slide-10", 8, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-11", 8, { opacity: 1, display: 'flex' }, '-=8')
 
     .to(".slide-11 .callout:nth-of-type(1)", 8, { opacity: 1, left: '8%' })
     .to(".slide-11 img:nth-of-type(2)", 8, { opacity: 1, transform: 'perspective(400px)' })
     .to(".slide-11 .callout:nth-of-type(2)", 8, { opacity: 1, left: '6%' })
 
-    .to(".slide-11 .dot", 8, { padding: '50rem', opacity: 1 }, '=16')
-    .to(".slide-11", 8, { opacity: 0, display: 'none' })
+    .to(".slide-11", 8, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-12", 8, { opacity: 1, display: 'flex' }, '-=8')
 
     .to(".slide-12 .callout:nth-of-type(1)", 8, { opacity: 1, left: '8%' })
@@ -161,16 +150,14 @@ observer.check('Hii', 10000).then(function() {
     .to(".slide-12 img:nth-of-type(3)", 8, { opacity: 1 })
     .to(".slide-12 .callout:nth-of-type(3)", 8, { opacity: 1, left: '4%' })
 
-    .to(".slide-12 .dot", 8, { padding: '50rem', opacity: 1 }, '=16')
-    .to(".slide-12", 8, { opacity: 0, display: 'none' })
+    .to(".slide-12", 8, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-13", 8, { opacity: 1, display: 'flex' }, '-=8')
 
     .to(".slide-13 img:nth-of-type(2)", 8, { top: 0, opacity: 1 })
     .to(".slide-13 .callout:nth-of-type(1)", 8, { opacity: 1, left: '8%' })
     .to(".slide-13 .callout:nth-of-type(2)", 8, { opacity: 1, left: '6%' })
 
-    .to(".slide-13 .dot", 8, { padding: '50rem', opacity: 1 }, '=16')
-    .to(".slide-13", 8, { opacity: 0, display: 'none' })
+    .to(".slide-13", 8, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-14", 8, { opacity: 1, display: 'flex' }, '-=8')
 
     .to(".slide-14 img:nth-of-type(2)", 16, { top: '0', opacity: 1 })
@@ -178,8 +165,7 @@ observer.check('Hii', 10000).then(function() {
     .to(".slide-14 .callout:nth-of-type(2)", 8, { opacity: 1, left: '6%' })
     .to(".slide-14 img:nth-of-type(2)", 16, { top: '-100%', opacity: 0 }, '=16')
 
-    .to(".slide-14 .dot", 8, { padding: '50rem', opacity: 1 }, '=16')
-    .to(".slide-14", 8, { opacity: 0, display: 'none' })
+    .to(".slide-14", 8, { opacity: 0, display: 'none' }, '=32')
     .to(".slide-15", 8, { opacity: 1, display: 'flex' }, '-=8')
 
     .to(".slide-15 .card", 8, { transform: 'perspective(400px)', opacity: 1 })
