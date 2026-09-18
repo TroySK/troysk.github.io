@@ -10,28 +10,28 @@ body.fonts-loaded {
   box-shadow: 0 0 100px 1rem #000;
 }
 .slide-1 .dot, .slide-2 {
-  background-color: #E91E63;
+  background-color: #F6CBD9;
 }
 .slide-2 .dot, .slide-3 {
-  background-color: #9C27B0;
+  background-color: #EDD0F1;
 }
 .slide-3 .dot, .slide-4 {
-  background-color: #673AB7;
+  background-color: #DDD0F1;
 }
 .slide-4 .dot, .slide-5 {
-  background-color: #3F51B5;
+  background-color: #CED2F3;
 }
 .slide-5 .dot, .slide-6 {
-  background-color: #2196F3;
+  background-color: #CDE3F4;
 }
 .slide-6 .dot, .slide-7 {
-  background-color: #03A9F4;
+  background-color: #CEEDF3;
 }
 .slide-7 .dot, .slide-8 {
-  background-color: #00BCD4;
+  background-color: #D0F1ED;
 }
 .slide-8 .dot, .slide-9 {
-  background-color: #009688;
+  background-color: #D1F0E4;
 }
 .slide-9 {
   background-image: url('/images/linkedin-bg.svg');
@@ -40,22 +40,22 @@ body.fonts-loaded {
   background-repeat: no-repeat;
 }
 .slide-9 .dot, .slide-10 {
-  background-color: #4CAF50;
+  background-color: #CDEED2;
 }
 .slide-10 .dot, .slide-11 {
-  background-color: #8BC34A;
+  background-color: #DBEECD;
 }
 .slide-11 .dot, .slide-12 {
-  background-color: #CDDC39;
+  background-color: #ECF1D0;
 }
 .slide-12 .dot, .slide-13 {
-  background-color: #FDD835;
+  background-color: #F4EECD;
 }
 .slide-13 .dot, .slide-14 {
-  background-color: #FFB300;
+  background-color: #F4E6CD;
 }
 .slide-14 .dot, .slide-15 {
-  background-color: #F57C00;
+  background-color: #F6DECB;
 }
 .card {
   background: url(/images/contact-card-bg.jpg);
